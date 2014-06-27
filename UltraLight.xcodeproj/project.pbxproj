@@ -27,6 +27,14 @@
 		0A0287EF195D4C1E00F24C88 /* call_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A0287ED195D4C1E00F24C88 /* call_button.png */; };
 		0A0287F0195D4C1E00F24C88 /* call_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A0287EE195D4C1E00F24C88 /* call_button@2x.png */; };
 		0A0287F4195D4F4600F24C88 /* RSArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0287F3195D4F4600F24C88 /* RSArrayDataSource.m */; };
+		0A0287F9195D6CD500F24C88 /* hair.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A0287F5195D6CD500F24C88 /* hair.jpg */; };
+		0A0287FA195D6CD500F24C88 /* hipster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A0287F6195D6CD500F24C88 /* hipster.jpg */; };
+		0A0287FB195D6CD500F24C88 /* lego.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A0287F7195D6CD500F24C88 /* lego.jpg */; };
+		0A0287FC195D6CD500F24C88 /* ric.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A0287F8195D6CD500F24C88 /* ric.jpg */; };
+		0A0287FF195D6D1400F24C88 /* RSContactTableViewCell+Configure.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0287FE195D6D1400F24C88 /* RSContactTableViewCell+Configure.m */; };
+		0A028802195D7EB300F24C88 /* profile_placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A028800195D7EB300F24C88 /* profile_placeholder.png */; };
+		0A028803195D7EB300F24C88 /* profile_placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A028801195D7EB300F24C88 /* profile_placeholder@2x.png */; };
+		0A028806195D7F1000F24C88 /* RSBackendStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A028805195D7F1000F24C88 /* RSBackendStore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +76,16 @@
 		0A0287EE195D4C1E00F24C88 /* call_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "call_button@2x.png"; sourceTree = "<group>"; };
 		0A0287F2195D4F4600F24C88 /* RSArrayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSArrayDataSource.h; sourceTree = "<group>"; };
 		0A0287F3195D4F4600F24C88 /* RSArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSArrayDataSource.m; sourceTree = "<group>"; };
+		0A0287F5195D6CD500F24C88 /* hair.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hair.jpg; sourceTree = "<group>"; };
+		0A0287F6195D6CD500F24C88 /* hipster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hipster.jpg; sourceTree = "<group>"; };
+		0A0287F7195D6CD500F24C88 /* lego.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lego.jpg; sourceTree = "<group>"; };
+		0A0287F8195D6CD500F24C88 /* ric.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ric.jpg; sourceTree = "<group>"; };
+		0A0287FD195D6D1400F24C88 /* RSContactTableViewCell+Configure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RSContactTableViewCell+Configure.h"; path = "UltraLight/RSContactTableViewCell+Configure.h"; sourceTree = SOURCE_ROOT; };
+		0A0287FE195D6D1400F24C88 /* RSContactTableViewCell+Configure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "RSContactTableViewCell+Configure.m"; path = "UltraLight/RSContactTableViewCell+Configure.m"; sourceTree = SOURCE_ROOT; };
+		0A028800195D7EB300F24C88 /* profile_placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_placeholder.png; sourceTree = "<group>"; };
+		0A028801195D7EB300F24C88 /* profile_placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile_placeholder@2x.png"; sourceTree = "<group>"; };
+		0A028804195D7F1000F24C88 /* RSBackendStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSBackendStore.h; sourceTree = "<group>"; };
+		0A028805195D7F1000F24C88 /* RSBackendStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSBackendStore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +193,8 @@
 			children = (
 				0A0287DC195D498F00F24C88 /* RSContact.h */,
 				0A0287DD195D498F00F24C88 /* RSContact.m */,
+				0A028804195D7F1000F24C88 /* RSBackendStore.h */,
+				0A028805195D7F1000F24C88 /* RSBackendStore.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -195,6 +215,8 @@
 				0A0287E3195D498F00F24C88 /* RSContactTableViewCell.h */,
 				0A0287E4195D498F00F24C88 /* RSContactTableViewCell.m */,
 				0A0287E5195D498F00F24C88 /* RSContactTableViewCell.xib */,
+				0A0287FD195D6D1400F24C88 /* RSContactTableViewCell+Configure.h */,
+				0A0287FE195D6D1400F24C88 /* RSContactTableViewCell+Configure.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -210,6 +232,12 @@
 		0A0287EC195D4C1E00F24C88 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				0A028800195D7EB300F24C88 /* profile_placeholder.png */,
+				0A028801195D7EB300F24C88 /* profile_placeholder@2x.png */,
+				0A0287F5195D6CD500F24C88 /* hair.jpg */,
+				0A0287F6195D6CD500F24C88 /* hipster.jpg */,
+				0A0287F7195D6CD500F24C88 /* lego.jpg */,
+				0A0287F8195D6CD500F24C88 /* ric.jpg */,
 				0A0287ED195D4C1E00F24C88 /* call_button.png */,
 				0A0287EE195D4C1E00F24C88 /* call_button@2x.png */,
 			);
@@ -293,10 +321,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A0287F0195D4C1E00F24C88 /* call_button@2x.png in Resources */,
+				0A0287FA195D6CD500F24C88 /* hipster.jpg in Resources */,
 				0A0287EF195D4C1E00F24C88 /* call_button.png in Resources */,
+				0A0287F9195D6CD500F24C88 /* hair.jpg in Resources */,
+				0A0287FB195D6CD500F24C88 /* lego.jpg in Resources */,
 				0A0287AA195D48D000F24C88 /* InfoPlist.strings in Resources */,
+				0A028803195D7EB300F24C88 /* profile_placeholder@2x.png in Resources */,
+				0A0287FC195D6CD500F24C88 /* ric.jpg in Resources */,
 				0A0287E8195D498F00F24C88 /* RSContactsViewController.xib in Resources */,
 				0A0287B2195D48D000F24C88 /* Images.xcassets in Resources */,
+				0A028802195D7EB300F24C88 /* profile_placeholder.png in Resources */,
 				0A0287EA195D498F00F24C88 /* RSContactTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,6 +355,8 @@
 				0A0287AC195D48D000F24C88 /* main.m in Sources */,
 				0A0287F4195D4F4600F24C88 /* RSArrayDataSource.m in Sources */,
 				0A0287E6195D498F00F24C88 /* RSContact.m in Sources */,
+				0A028806195D7F1000F24C88 /* RSBackendStore.m in Sources */,
+				0A0287FF195D6D1400F24C88 /* RSContactTableViewCell+Configure.m in Sources */,
 				0A0287B0195D48D000F24C88 /* RSAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

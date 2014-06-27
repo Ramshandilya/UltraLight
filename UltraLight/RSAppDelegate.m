@@ -7,6 +7,7 @@
 //
 
 #import "RSAppDelegate.h"
+#import "RSContactsViewController.h"
 
 @implementation RSAppDelegate
 
@@ -14,8 +15,15 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    RSContactsViewController *contactsViewController = [[RSContactsViewController alloc] initWithNibName:@"RSContactsViewController" bundle:nil];
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:contactsViewController];
+    
+    self.window.rootViewController = navigationController;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+
     return YES;
 }
 

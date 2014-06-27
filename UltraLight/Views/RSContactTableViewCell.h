@@ -8,10 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol RSContactTableViewCellDelegate <NSObject>
+
+- (void)contactTableViewCellDidTapCall;
+
+@end
+
 @interface RSContactTableViewCell : UITableViewCell
 
 @property (weak, nonatomic) IBOutlet UIImageView *contactImageView;
 @property (weak, nonatomic) IBOutlet UILabel *contactNameLabel;
 @property (weak, nonatomic) IBOutlet UILabel *contactNumberLabel;
+
+@property (nonatomic, weak) id <RSContactTableViewCellDelegate> delegate;
 
 @end

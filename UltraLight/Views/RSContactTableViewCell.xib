@@ -13,7 +13,7 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="69"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="e7e-a1-04c">
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile_placeholder.png" id="e7e-a1-04c">
                         <rect key="frame" x="20" y="5" width="60" height="60"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <userDefinedRuntimeAttributes>
@@ -43,6 +43,9 @@
                         <state key="normal" image="call_button.png">
                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                         </state>
+                        <connections>
+                            <action selector="callTapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="YdM-EZ-hFh"/>
+                        </connections>
                     </button>
                 </subviews>
             </tableViewCellContentView>
@@ -55,5 +58,6 @@
     </objects>
     <resources>
         <image name="call_button.png" width="33" height="33"/>
+        <image name="profile_placeholder.png" width="81" height="81"/>
     </resources>
 </document>

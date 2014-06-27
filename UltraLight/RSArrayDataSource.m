@@ -18,6 +18,11 @@
 
 @implementation RSArrayDataSource
 
+- (instancetype)init
+{
+    return nil;
+}
+
 - (instancetype)initWithItems:(NSArray *)items cellIdentifier:(NSString *)cellIdentifier configureCellBlock:(RSTableViewCellConfigureBlock)configureBlock
 {
     if (self = [super init]) {

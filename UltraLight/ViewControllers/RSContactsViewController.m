@@ -10,12 +10,15 @@
 #import "RSArrayDataSource.h"
 #import "RSContactTableViewCell.h"
 #import "RSContact.h"
+#import "RSContactTableViewCell+Configure.h"
+#import "RSBackendStore.h"
 
 static NSString* const RSContactsTableViewCellIdentifier = @"ContactsTableViewCellIdentifier";
 
 @interface RSContactsViewController ()
 
 @property (weak, nonatomic) IBOutlet UITableView *contactsTableView;
+@property (nonatomic, strong) RSArrayDataSource *arrayDataSource;
 
 @end
 
@@ -26,6 +29,7 @@ static NSString* const RSContactsTableViewCellIdentifier = @"ContactsTableViewCe
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        self.title = @"Contacts";
     }
     return self;
 }
@@ -35,18 +39,18 @@ static NSString* const RSContactsTableViewCellIdentifier = @"ContactsTableViewCe
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
-    RSArrayDataSource *arrayDataSource = [[RSArrayDataSource alloc] initWithItems:nil
+    NSArray *contacts = [RSBackendStore sharedStore].contacts;
+    self.arrayDataSource = [[RSArrayDataSource alloc] initWithItems:contacts
                                                                    cellIdentifier:RSContactsTableViewCellIdentifier
                                                                configureCellBlock:^(RSContactTableViewCell *cell, RSContact *contact) {
                                                                    
-                                                                   cell.contactNameLabel.text = contact.name;
-                                                                   cell.contactNumberLabel.text = contact.number;
-                                                                   cell.contactImageView.image = contact.image;
+                                                                   [cell configureCellForContact:contact];
+                                                                   
                                                                    
     }];
     
     [self.contactsTableView registerNib:[UINib nibWithNibName:@"RSContactTableViewCell" bundle:nil] forCellReuseIdentifier:RSContactsTableViewCellIdentifier];
-    [self.contactsTableView setDataSource:arrayDataSource];
+    [self.contactsTableView setDataSource:self.arrayDataSource];
 }
 
 - (void)didReceiveMemoryWarning

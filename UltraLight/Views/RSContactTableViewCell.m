@@ -22,4 +22,10 @@
     // Configure the view for the selected state
 }
 
+- (IBAction)callTapped:(id)sender
+{
+    if ([self.delegate respondsToSelector:@selector(contactTableViewCellDidTapCall)]) {
+        [self.delegate contactTableViewCellDidTapCall];
+    }
+}
 @end
