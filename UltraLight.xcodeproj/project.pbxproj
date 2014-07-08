@@ -7,239 +7,185 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A0287A0195D48D000F24C88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A02879F195D48CF00F24C88 /* Foundation.framework */; };
-		0A0287A2195D48D000F24C88 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A0287A1195D48D000F24C88 /* CoreGraphics.framework */; };
-		0A0287A4195D48D000F24C88 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A0287A3195D48D000F24C88 /* UIKit.framework */; };
-		0A0287AA195D48D000F24C88 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A0287A8195D48D000F24C88 /* InfoPlist.strings */; };
-		0A0287AC195D48D000F24C88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0287AB195D48D000F24C88 /* main.m */; };
-		0A0287B0195D48D000F24C88 /* RSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0287AF195D48D000F24C88 /* RSAppDelegate.m */; };
-		0A0287B2195D48D000F24C88 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A0287B1195D48D000F24C88 /* Images.xcassets */; };
-		0A0287B9195D48D000F24C88 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A0287B8195D48D000F24C88 /* XCTest.framework */; };
-		0A0287BA195D48D000F24C88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A02879F195D48CF00F24C88 /* Foundation.framework */; };
-		0A0287BB195D48D000F24C88 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A0287A3195D48D000F24C88 /* UIKit.framework */; };
-		0A0287C3195D48D000F24C88 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A0287C1195D48D000F24C88 /* InfoPlist.strings */; };
-		0A0287C5195D48D000F24C88 /* UltraLightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0287C4195D48D000F24C88 /* UltraLightTests.m */; };
-		0A0287E6195D498F00F24C88 /* RSContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0287DD195D498F00F24C88 /* RSContact.m */; };
-		0A0287E7195D498F00F24C88 /* RSContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0287E0195D498F00F24C88 /* RSContactsViewController.m */; };
-		0A0287E8195D498F00F24C88 /* RSContactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A0287E1195D498F00F24C88 /* RSContactsViewController.xib */; };
-		0A0287E9195D498F00F24C88 /* RSContactTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0287E4195D498F00F24C88 /* RSContactTableViewCell.m */; };
-		0A0287EA195D498F00F24C88 /* RSContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A0287E5195D498F00F24C88 /* RSContactTableViewCell.xib */; };
-		0A0287EF195D4C1E00F24C88 /* call_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A0287ED195D4C1E00F24C88 /* call_button.png */; };
-		0A0287F0195D4C1E00F24C88 /* call_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A0287EE195D4C1E00F24C88 /* call_button@2x.png */; };
-		0A0287F4195D4F4600F24C88 /* RSArrayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0287F3195D4F4600F24C88 /* RSArrayDataSource.m */; };
-		0A0287F9195D6CD500F24C88 /* hair.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A0287F5195D6CD500F24C88 /* hair.jpg */; };
-		0A0287FA195D6CD500F24C88 /* hipster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A0287F6195D6CD500F24C88 /* hipster.jpg */; };
-		0A0287FB195D6CD500F24C88 /* lego.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A0287F7195D6CD500F24C88 /* lego.jpg */; };
-		0A0287FC195D6CD500F24C88 /* ric.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A0287F8195D6CD500F24C88 /* ric.jpg */; };
-		0A0287FF195D6D1400F24C88 /* RSContactTableViewCell+Configure.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A0287FE195D6D1400F24C88 /* RSContactTableViewCell+Configure.m */; };
-		0A028802195D7EB300F24C88 /* profile_placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A028800195D7EB300F24C88 /* profile_placeholder.png */; };
-		0A028803195D7EB300F24C88 /* profile_placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A028801195D7EB300F24C88 /* profile_placeholder@2x.png */; };
-		0A028806195D7F1000F24C88 /* RSBackendStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A028805195D7F1000F24C88 /* RSBackendStore.m */; };
+		0A57CAAC19669F3800A298BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A57CAAB19669F3800A298BA /* AppDelegate.swift */; };
+		0A57CAAE19669F3800A298BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A57CAAD19669F3800A298BA /* Images.xcassets */; };
+		0A57CABA19669F3800A298BA /* UltraLightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A57CAB919669F3800A298BA /* UltraLightTests.swift */; };
+		0A57CAD619669FB800A298BA /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A57CAD019669FB800A298BA /* ContactsViewController.swift */; };
+		0A57CAD719669FB800A298BA /* ContactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A57CAD119669FB800A298BA /* ContactsViewController.xib */; };
+		0A57CAD819669FB800A298BA /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A57CAD319669FB800A298BA /* ContactTableViewCell.swift */; };
+		0A57CAD919669FB800A298BA /* ContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A57CAD419669FB800A298BA /* ContactTableViewCell.xib */; };
+		0A57CAE21966A1F700A298BA /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A57CAE11966A1F700A298BA /* Contact.swift */; };
+		0A57CAE41966A35100A298BA /* BackendStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A57CAE31966A35100A298BA /* BackendStore.swift */; };
+		0A57CAEF1966AF4700A298BA /* call_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A57CAE71966AF4700A298BA /* call_button.png */; };
+		0A57CAF01966AF4700A298BA /* call_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A57CAE81966AF4700A298BA /* call_button@2x.png */; };
+		0A57CAF11966AF4700A298BA /* hair.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A57CAE91966AF4700A298BA /* hair.jpg */; };
+		0A57CAF21966AF4700A298BA /* hipster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A57CAEA1966AF4700A298BA /* hipster.jpg */; };
+		0A57CAF31966AF4700A298BA /* lego.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A57CAEB1966AF4700A298BA /* lego.jpg */; };
+		0A57CAF41966AF4700A298BA /* profile_placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A57CAEC1966AF4700A298BA /* profile_placeholder.png */; };
+		0A57CAF51966AF4700A298BA /* profile_placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A57CAED1966AF4700A298BA /* profile_placeholder@2x.png */; };
+		0A57CAF61966AF4700A298BA /* ric.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0A57CAEE1966AF4700A298BA /* ric.jpg */; };
+		0A57CAF81966B01400A298BA /* ArrayDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A57CAF71966B01400A298BA /* ArrayDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0A0287BC195D48D000F24C88 /* PBXContainerItemProxy */ = {
+		0A57CAB419669F3800A298BA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0A028794195D48CF00F24C88 /* Project object */;
+			containerPortal = 0A57CA9E19669F3800A298BA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0A02879B195D48CF00F24C88;
+			remoteGlobalIDString = 0A57CAA519669F3800A298BA;
 			remoteInfo = UltraLight;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A02879C195D48CF00F24C88 /* UltraLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltraLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A02879F195D48CF00F24C88 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		0A0287A1195D48D000F24C88 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		0A0287A3195D48D000F24C88 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		0A0287A7195D48D000F24C88 /* UltraLight-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UltraLight-Info.plist"; sourceTree = "<group>"; };
-		0A0287A9195D48D000F24C88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0A0287AB195D48D000F24C88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0A0287AD195D48D000F24C88 /* UltraLight-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UltraLight-Prefix.pch"; sourceTree = "<group>"; };
-		0A0287AE195D48D000F24C88 /* RSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSAppDelegate.h; sourceTree = "<group>"; };
-		0A0287AF195D48D000F24C88 /* RSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSAppDelegate.m; sourceTree = "<group>"; };
-		0A0287B1195D48D000F24C88 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		0A0287B7195D48D000F24C88 /* UltraLightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UltraLightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A0287B8195D48D000F24C88 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		0A0287C0195D48D000F24C88 /* UltraLightTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UltraLightTests-Info.plist"; sourceTree = "<group>"; };
-		0A0287C2195D48D000F24C88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		0A0287C4195D48D000F24C88 /* UltraLightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UltraLightTests.m; sourceTree = "<group>"; };
-		0A0287DC195D498F00F24C88 /* RSContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSContact.h; sourceTree = "<group>"; };
-		0A0287DD195D498F00F24C88 /* RSContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSContact.m; sourceTree = "<group>"; };
-		0A0287DF195D498F00F24C88 /* RSContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSContactsViewController.h; sourceTree = "<group>"; };
-		0A0287E0195D498F00F24C88 /* RSContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSContactsViewController.m; sourceTree = "<group>"; };
-		0A0287E1195D498F00F24C88 /* RSContactsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RSContactsViewController.xib; sourceTree = "<group>"; };
-		0A0287E3195D498F00F24C88 /* RSContactTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSContactTableViewCell.h; sourceTree = "<group>"; };
-		0A0287E4195D498F00F24C88 /* RSContactTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSContactTableViewCell.m; sourceTree = "<group>"; };
-		0A0287E5195D498F00F24C88 /* RSContactTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RSContactTableViewCell.xib; sourceTree = "<group>"; };
-		0A0287ED195D4C1E00F24C88 /* call_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call_button.png; sourceTree = "<group>"; };
-		0A0287EE195D4C1E00F24C88 /* call_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "call_button@2x.png"; sourceTree = "<group>"; };
-		0A0287F2195D4F4600F24C88 /* RSArrayDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSArrayDataSource.h; sourceTree = "<group>"; };
-		0A0287F3195D4F4600F24C88 /* RSArrayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSArrayDataSource.m; sourceTree = "<group>"; };
-		0A0287F5195D6CD500F24C88 /* hair.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hair.jpg; sourceTree = "<group>"; };
-		0A0287F6195D6CD500F24C88 /* hipster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hipster.jpg; sourceTree = "<group>"; };
-		0A0287F7195D6CD500F24C88 /* lego.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lego.jpg; sourceTree = "<group>"; };
-		0A0287F8195D6CD500F24C88 /* ric.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ric.jpg; sourceTree = "<group>"; };
-		0A0287FD195D6D1400F24C88 /* RSContactTableViewCell+Configure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "RSContactTableViewCell+Configure.h"; path = "UltraLight/RSContactTableViewCell+Configure.h"; sourceTree = SOURCE_ROOT; };
-		0A0287FE195D6D1400F24C88 /* RSContactTableViewCell+Configure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "RSContactTableViewCell+Configure.m"; path = "UltraLight/RSContactTableViewCell+Configure.m"; sourceTree = SOURCE_ROOT; };
-		0A028800195D7EB300F24C88 /* profile_placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_placeholder.png; sourceTree = "<group>"; };
-		0A028801195D7EB300F24C88 /* profile_placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile_placeholder@2x.png"; sourceTree = "<group>"; };
-		0A028804195D7F1000F24C88 /* RSBackendStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSBackendStore.h; sourceTree = "<group>"; };
-		0A028805195D7F1000F24C88 /* RSBackendStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSBackendStore.m; sourceTree = "<group>"; };
+		0A57CAA619669F3800A298BA /* UltraLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltraLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A57CAAA19669F3800A298BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A57CAAB19669F3800A298BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A57CAAD19669F3800A298BA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0A57CAB319669F3800A298BA /* UltraLightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UltraLightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A57CAB819669F3800A298BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A57CAB919669F3800A298BA /* UltraLightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UltraLightTests.swift; sourceTree = "<group>"; };
+		0A57CAD019669FB800A298BA /* ContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		0A57CAD119669FB800A298BA /* ContactsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactsViewController.xib; sourceTree = "<group>"; };
+		0A57CAD319669FB800A298BA /* ContactTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		0A57CAD419669FB800A298BA /* ContactTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactTableViewCell.xib; sourceTree = "<group>"; };
+		0A57CAE11966A1F700A298BA /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		0A57CAE31966A35100A298BA /* BackendStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackendStore.swift; sourceTree = "<group>"; };
+		0A57CAE71966AF4700A298BA /* call_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call_button.png; sourceTree = "<group>"; };
+		0A57CAE81966AF4700A298BA /* call_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "call_button@2x.png"; sourceTree = "<group>"; };
+		0A57CAE91966AF4700A298BA /* hair.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hair.jpg; sourceTree = "<group>"; };
+		0A57CAEA1966AF4700A298BA /* hipster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hipster.jpg; sourceTree = "<group>"; };
+		0A57CAEB1966AF4700A298BA /* lego.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lego.jpg; sourceTree = "<group>"; };
+		0A57CAEC1966AF4700A298BA /* profile_placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_placeholder.png; sourceTree = "<group>"; };
+		0A57CAED1966AF4700A298BA /* profile_placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile_placeholder@2x.png"; sourceTree = "<group>"; };
+		0A57CAEE1966AF4700A298BA /* ric.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ric.jpg; sourceTree = "<group>"; };
+		0A57CAF71966B01400A298BA /* ArrayDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayDataSource.swift; sourceTree = "<group>"; };
+		0ABE3BA7196BD5DC004EB10E /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0A028799195D48CF00F24C88 /* Frameworks */ = {
+		0A57CAA319669F3800A298BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A0287A2195D48D000F24C88 /* CoreGraphics.framework in Frameworks */,
-				0A0287A4195D48D000F24C88 /* UIKit.framework in Frameworks */,
-				0A0287A0195D48D000F24C88 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0A0287B4195D48D000F24C88 /* Frameworks */ = {
+		0A57CAB019669F3800A298BA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A0287B9195D48D000F24C88 /* XCTest.framework in Frameworks */,
-				0A0287BB195D48D000F24C88 /* UIKit.framework in Frameworks */,
-				0A0287BA195D48D000F24C88 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A028793195D48CF00F24C88 = {
+		0A57CA9D19669F3800A298BA = {
 			isa = PBXGroup;
 			children = (
-				0A0287A5195D48D000F24C88 /* UltraLight */,
-				0A0287BE195D48D000F24C88 /* UltraLightTests */,
-				0A02879E195D48CF00F24C88 /* Frameworks */,
-				0A02879D195D48CF00F24C88 /* Products */,
+				0A57CAA819669F3800A298BA /* UltraLight */,
+				0A57CAB619669F3800A298BA /* UltraLightTests */,
+				0A57CAA719669F3800A298BA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0A02879D195D48CF00F24C88 /* Products */ = {
+		0A57CAA719669F3800A298BA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0A02879C195D48CF00F24C88 /* UltraLight.app */,
-				0A0287B7195D48D000F24C88 /* UltraLightTests.xctest */,
+				0A57CAA619669F3800A298BA /* UltraLight.app */,
+				0A57CAB319669F3800A298BA /* UltraLightTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0A02879E195D48CF00F24C88 /* Frameworks */ = {
+		0A57CAA819669F3800A298BA /* UltraLight */ = {
 			isa = PBXGroup;
 			children = (
-				0A02879F195D48CF00F24C88 /* Foundation.framework */,
-				0A0287A1195D48D000F24C88 /* CoreGraphics.framework */,
-				0A0287A3195D48D000F24C88 /* UIKit.framework */,
-				0A0287B8195D48D000F24C88 /* XCTest.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		0A0287A5195D48D000F24C88 /* UltraLight */ = {
-			isa = PBXGroup;
-			children = (
-				0A0287EB195D4C1E00F24C88 /* Resources */,
-				0A0287DB195D498F00F24C88 /* Model */,
-				0A0287DE195D498F00F24C88 /* ViewControllers */,
-				0A0287E2195D498F00F24C88 /* Views */,
-				0A0287AE195D48D000F24C88 /* RSAppDelegate.h */,
-				0A0287AF195D48D000F24C88 /* RSAppDelegate.m */,
-				0A0287B1195D48D000F24C88 /* Images.xcassets */,
-				0A0287A6195D48D000F24C88 /* Supporting Files */,
-				0A0287F2195D4F4600F24C88 /* RSArrayDataSource.h */,
-				0A0287F3195D4F4600F24C88 /* RSArrayDataSource.m */,
+				0A57CAAB19669F3800A298BA /* AppDelegate.swift */,
+				0A57CAF71966B01400A298BA /* ArrayDataSource.swift */,
+				0A57CAAD19669F3800A298BA /* Images.xcassets */,
+				0A57CAE01966A1F700A298BA /* Model */,
+				0A57CAE51966AF4700A298BA /* Resources */,
+				0A57CAA919669F3800A298BA /* Supporting Files */,
+				0A57CACF19669FB800A298BA /* ViewControllers */,
+				0A57CAD219669FB800A298BA /* Views */,
+				0ABE3BA7196BD5DC004EB10E /* MyPlayground.playground */,
 			);
 			path = UltraLight;
 			sourceTree = "<group>";
 		};
-		0A0287A6195D48D000F24C88 /* Supporting Files */ = {
+		0A57CAA919669F3800A298BA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0A0287A7195D48D000F24C88 /* UltraLight-Info.plist */,
-				0A0287A8195D48D000F24C88 /* InfoPlist.strings */,
-				0A0287AB195D48D000F24C88 /* main.m */,
-				0A0287AD195D48D000F24C88 /* UltraLight-Prefix.pch */,
+				0A57CAAA19669F3800A298BA /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0A0287BE195D48D000F24C88 /* UltraLightTests */ = {
+		0A57CAB619669F3800A298BA /* UltraLightTests */ = {
 			isa = PBXGroup;
 			children = (
-				0A0287C4195D48D000F24C88 /* UltraLightTests.m */,
-				0A0287BF195D48D000F24C88 /* Supporting Files */,
+				0A57CAB919669F3800A298BA /* UltraLightTests.swift */,
+				0A57CAB719669F3800A298BA /* Supporting Files */,
 			);
 			path = UltraLightTests;
 			sourceTree = "<group>";
 		};
-		0A0287BF195D48D000F24C88 /* Supporting Files */ = {
+		0A57CAB719669F3800A298BA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				0A0287C0195D48D000F24C88 /* UltraLightTests-Info.plist */,
-				0A0287C1195D48D000F24C88 /* InfoPlist.strings */,
+				0A57CAB819669F3800A298BA /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0A0287DB195D498F00F24C88 /* Model */ = {
+		0A57CACF19669FB800A298BA /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				0A0287DC195D498F00F24C88 /* RSContact.h */,
-				0A0287DD195D498F00F24C88 /* RSContact.m */,
-				0A028804195D7F1000F24C88 /* RSBackendStore.h */,
-				0A028805195D7F1000F24C88 /* RSBackendStore.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		0A0287DE195D498F00F24C88 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				0A0287DF195D498F00F24C88 /* RSContactsViewController.h */,
-				0A0287E0195D498F00F24C88 /* RSContactsViewController.m */,
-				0A0287E1195D498F00F24C88 /* RSContactsViewController.xib */,
+				0A57CAD019669FB800A298BA /* ContactsViewController.swift */,
+				0A57CAD119669FB800A298BA /* ContactsViewController.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
-		0A0287E2195D498F00F24C88 /* Views */ = {
+		0A57CAD219669FB800A298BA /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				0A0287E3195D498F00F24C88 /* RSContactTableViewCell.h */,
-				0A0287E4195D498F00F24C88 /* RSContactTableViewCell.m */,
-				0A0287E5195D498F00F24C88 /* RSContactTableViewCell.xib */,
-				0A0287FD195D6D1400F24C88 /* RSContactTableViewCell+Configure.h */,
-				0A0287FE195D6D1400F24C88 /* RSContactTableViewCell+Configure.m */,
+				0A57CAD319669FB800A298BA /* ContactTableViewCell.swift */,
+				0A57CAD419669FB800A298BA /* ContactTableViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
 		};
-		0A0287EB195D4C1E00F24C88 /* Resources */ = {
+		0A57CAE01966A1F700A298BA /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				0A0287EC195D4C1E00F24C88 /* Images */,
+				0A57CAE11966A1F700A298BA /* Contact.swift */,
+				0A57CAE31966A35100A298BA /* BackendStore.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A57CAE51966AF4700A298BA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0A57CAE61966AF4700A298BA /* Images */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		0A0287EC195D4C1E00F24C88 /* Images */ = {
+		0A57CAE61966AF4700A298BA /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				0A028800195D7EB300F24C88 /* profile_placeholder.png */,
-				0A028801195D7EB300F24C88 /* profile_placeholder@2x.png */,
-				0A0287F5195D6CD500F24C88 /* hair.jpg */,
-				0A0287F6195D6CD500F24C88 /* hipster.jpg */,
-				0A0287F7195D6CD500F24C88 /* lego.jpg */,
-				0A0287F8195D6CD500F24C88 /* ric.jpg */,
-				0A0287ED195D4C1E00F24C88 /* call_button.png */,
-				0A0287EE195D4C1E00F24C88 /* call_button@2x.png */,
+				0A57CAE71966AF4700A298BA /* call_button.png */,
+				0A57CAE81966AF4700A298BA /* call_button@2x.png */,
+				0A57CAE91966AF4700A298BA /* hair.jpg */,
+				0A57CAEA1966AF4700A298BA /* hipster.jpg */,
+				0A57CAEB1966AF4700A298BA /* lego.jpg */,
+				0A57CAEC1966AF4700A298BA /* profile_placeholder.png */,
+				0A57CAED1966AF4700A298BA /* profile_placeholder@2x.png */,
+				0A57CAEE1966AF4700A298BA /* ric.jpg */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -247,13 +193,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0A02879B195D48CF00F24C88 /* UltraLight */ = {
+		0A57CAA519669F3800A298BA /* UltraLight */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0A0287C8195D48D000F24C88 /* Build configuration list for PBXNativeTarget "UltraLight" */;
+			buildConfigurationList = 0A57CABD19669F3800A298BA /* Build configuration list for PBXNativeTarget "UltraLight" */;
 			buildPhases = (
-				0A028798195D48CF00F24C88 /* Sources */,
-				0A028799195D48CF00F24C88 /* Frameworks */,
-				0A02879A195D48CF00F24C88 /* Resources */,
+				0A57CAA219669F3800A298BA /* Sources */,
+				0A57CAA319669F3800A298BA /* Frameworks */,
+				0A57CAA419669F3800A298BA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -261,145 +207,125 @@
 			);
 			name = UltraLight;
 			productName = UltraLight;
-			productReference = 0A02879C195D48CF00F24C88 /* UltraLight.app */;
+			productReference = 0A57CAA619669F3800A298BA /* UltraLight.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0A0287B6195D48D000F24C88 /* UltraLightTests */ = {
+		0A57CAB219669F3800A298BA /* UltraLightTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0A0287CB195D48D000F24C88 /* Build configuration list for PBXNativeTarget "UltraLightTests" */;
+			buildConfigurationList = 0A57CAC019669F3800A298BA /* Build configuration list for PBXNativeTarget "UltraLightTests" */;
 			buildPhases = (
-				0A0287B3195D48D000F24C88 /* Sources */,
-				0A0287B4195D48D000F24C88 /* Frameworks */,
-				0A0287B5195D48D000F24C88 /* Resources */,
+				0A57CAAF19669F3800A298BA /* Sources */,
+				0A57CAB019669F3800A298BA /* Frameworks */,
+				0A57CAB119669F3800A298BA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0A0287BD195D48D000F24C88 /* PBXTargetDependency */,
+				0A57CAB519669F3800A298BA /* PBXTargetDependency */,
 			);
 			name = UltraLightTests;
 			productName = UltraLightTests;
-			productReference = 0A0287B7195D48D000F24C88 /* UltraLightTests.xctest */;
+			productReference = 0A57CAB319669F3800A298BA /* UltraLightTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0A028794195D48CF00F24C88 /* Project object */ = {
+		0A57CA9E19669F3800A298BA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = RS;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Ramsundar Shandilya";
 				TargetAttributes = {
-					0A0287B6195D48D000F24C88 = {
-						TestTargetID = 0A02879B195D48CF00F24C88;
+					0A57CAA519669F3800A298BA = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					0A57CAB219669F3800A298BA = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 0A57CAA519669F3800A298BA;
 					};
 				};
 			};
-			buildConfigurationList = 0A028797195D48CF00F24C88 /* Build configuration list for PBXProject "UltraLight" */;
+			buildConfigurationList = 0A57CAA119669F3800A298BA /* Build configuration list for PBXProject "UltraLight" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 0A028793195D48CF00F24C88;
-			productRefGroup = 0A02879D195D48CF00F24C88 /* Products */;
+			mainGroup = 0A57CA9D19669F3800A298BA;
+			productRefGroup = 0A57CAA719669F3800A298BA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0A02879B195D48CF00F24C88 /* UltraLight */,
-				0A0287B6195D48D000F24C88 /* UltraLightTests */,
+				0A57CAA519669F3800A298BA /* UltraLight */,
+				0A57CAB219669F3800A298BA /* UltraLightTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0A02879A195D48CF00F24C88 /* Resources */ = {
+		0A57CAA419669F3800A298BA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A0287F0195D4C1E00F24C88 /* call_button@2x.png in Resources */,
-				0A0287FA195D6CD500F24C88 /* hipster.jpg in Resources */,
-				0A0287EF195D4C1E00F24C88 /* call_button.png in Resources */,
-				0A0287F9195D6CD500F24C88 /* hair.jpg in Resources */,
-				0A0287FB195D6CD500F24C88 /* lego.jpg in Resources */,
-				0A0287AA195D48D000F24C88 /* InfoPlist.strings in Resources */,
-				0A028803195D7EB300F24C88 /* profile_placeholder@2x.png in Resources */,
-				0A0287FC195D6CD500F24C88 /* ric.jpg in Resources */,
-				0A0287E8195D498F00F24C88 /* RSContactsViewController.xib in Resources */,
-				0A0287B2195D48D000F24C88 /* Images.xcassets in Resources */,
-				0A028802195D7EB300F24C88 /* profile_placeholder.png in Resources */,
-				0A0287EA195D498F00F24C88 /* RSContactTableViewCell.xib in Resources */,
+				0A57CAD919669FB800A298BA /* ContactTableViewCell.xib in Resources */,
+				0A57CAF11966AF4700A298BA /* hair.jpg in Resources */,
+				0A57CAF51966AF4700A298BA /* profile_placeholder@2x.png in Resources */,
+				0A57CAEF1966AF4700A298BA /* call_button.png in Resources */,
+				0A57CAF41966AF4700A298BA /* profile_placeholder.png in Resources */,
+				0A57CAF61966AF4700A298BA /* ric.jpg in Resources */,
+				0A57CAF01966AF4700A298BA /* call_button@2x.png in Resources */,
+				0A57CAAE19669F3800A298BA /* Images.xcassets in Resources */,
+				0A57CAF21966AF4700A298BA /* hipster.jpg in Resources */,
+				0A57CAF31966AF4700A298BA /* lego.jpg in Resources */,
+				0A57CAD719669FB800A298BA /* ContactsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0A0287B5195D48D000F24C88 /* Resources */ = {
+		0A57CAB119669F3800A298BA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A0287C3195D48D000F24C88 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0A028798195D48CF00F24C88 /* Sources */ = {
+		0A57CAA219669F3800A298BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A0287E7195D498F00F24C88 /* RSContactsViewController.m in Sources */,
-				0A0287E9195D498F00F24C88 /* RSContactTableViewCell.m in Sources */,
-				0A0287AC195D48D000F24C88 /* main.m in Sources */,
-				0A0287F4195D4F4600F24C88 /* RSArrayDataSource.m in Sources */,
-				0A0287E6195D498F00F24C88 /* RSContact.m in Sources */,
-				0A028806195D7F1000F24C88 /* RSBackendStore.m in Sources */,
-				0A0287FF195D6D1400F24C88 /* RSContactTableViewCell+Configure.m in Sources */,
-				0A0287B0195D48D000F24C88 /* RSAppDelegate.m in Sources */,
+				0A57CAE21966A1F700A298BA /* Contact.swift in Sources */,
+				0A57CAD819669FB800A298BA /* ContactTableViewCell.swift in Sources */,
+				0A57CAAC19669F3800A298BA /* AppDelegate.swift in Sources */,
+				0A57CAE41966A35100A298BA /* BackendStore.swift in Sources */,
+				0A57CAF81966B01400A298BA /* ArrayDataSource.swift in Sources */,
+				0A57CAD619669FB800A298BA /* ContactsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0A0287B3195D48D000F24C88 /* Sources */ = {
+		0A57CAAF19669F3800A298BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A0287C5195D48D000F24C88 /* UltraLightTests.m in Sources */,
+				0A57CABA19669F3800A298BA /* UltraLightTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0A0287BD195D48D000F24C88 /* PBXTargetDependency */ = {
+		0A57CAB519669F3800A298BA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0A02879B195D48CF00F24C88 /* UltraLight */;
-			targetProxy = 0A0287BC195D48D000F24C88 /* PBXContainerItemProxy */;
+			target = 0A57CAA519669F3800A298BA /* UltraLight */;
+			targetProxy = 0A57CAB419669F3800A298BA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		0A0287A8195D48D000F24C88 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0A0287A9195D48D000F24C88 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		0A0287C1195D48D000F24C88 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0A0287C2195D48D000F24C88 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		0A0287C6195D48D000F24C88 /* Debug */ = {
+		0A57CABB19669F3800A298BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -414,9 +340,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -431,13 +359,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		0A0287C7195D48D000F24C88 /* Release */ = {
+		0A57CABC19669F3800A298BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -452,10 +382,12 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -463,107 +395,102 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		0A0287C9195D48D000F24C88 /* Debug */ = {
+		0A57CABE19669F3800A298BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UltraLight/UltraLight-Prefix.pch";
-				INFOPLIST_FILE = "UltraLight/UltraLight-Info.plist";
+				INFOPLIST_FILE = UltraLight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		0A0287CA195D48D000F24C88 /* Release */ = {
+		0A57CABF19669F3800A298BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UltraLight/UltraLight-Prefix.pch";
-				INFOPLIST_FILE = "UltraLight/UltraLight-Info.plist";
+				INFOPLIST_FILE = UltraLight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
-		0A0287CC195D48D000F24C88 /* Debug */ = {
+		0A57CAC119669F3800A298BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UltraLight.app/UltraLight";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UltraLight/UltraLight-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "UltraLightTests/UltraLightTests-Info.plist";
+				INFOPLIST_FILE = UltraLightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
-		0A0287CD195D48D000F24C88 /* Release */ = {
+		0A57CAC219669F3800A298BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/UltraLight.app/UltraLight";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UltraLight/UltraLight-Prefix.pch";
-				INFOPLIST_FILE = "UltraLightTests/UltraLightTests-Info.plist";
+				INFOPLIST_FILE = UltraLightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0A028797195D48CF00F24C88 /* Build configuration list for PBXProject "UltraLight" */ = {
+		0A57CAA119669F3800A298BA /* Build configuration list for PBXProject "UltraLight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0A0287C6195D48D000F24C88 /* Debug */,
-				0A0287C7195D48D000F24C88 /* Release */,
+				0A57CABB19669F3800A298BA /* Debug */,
+				0A57CABC19669F3800A298BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0A0287C8195D48D000F24C88 /* Build configuration list for PBXNativeTarget "UltraLight" */ = {
+		0A57CABD19669F3800A298BA /* Build configuration list for PBXNativeTarget "UltraLight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0A0287C9195D48D000F24C88 /* Debug */,
-				0A0287CA195D48D000F24C88 /* Release */,
+				0A57CABE19669F3800A298BA /* Debug */,
+				0A57CABF19669F3800A298BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		0A0287CB195D48D000F24C88 /* Build configuration list for PBXNativeTarget "UltraLightTests" */ = {
+		0A57CAC019669F3800A298BA /* Build configuration list for PBXNativeTarget "UltraLightTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0A0287CC195D48D000F24C88 /* Debug */,
-				0A0287CD195D48D000F24C88 /* Release */,
+				0A57CAC119669F3800A298BA /* Debug */,
+				0A57CAC219669F3800A298BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0A028794195D48CF00F24C88 /* Project object */;
+	rootObject = 0A57CA9E19669F3800A298BA /* Project object */;
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0510"
+   LastUpgradeVersion = "0600"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0A02879B195D48CF00F24C88"
+               BlueprintIdentifier = "0A57CAA519669F3800A298BA"
                BuildableName = "UltraLight.app"
                BlueprintName = "UltraLight"
                ReferencedContainer = "container:UltraLight.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "0A0287B6195D48D000F24C88"
+               BlueprintIdentifier = "0A57CAB219669F3800A298BA"
                BuildableName = "UltraLightTests.xctest"
                BlueprintName = "UltraLightTests"
                ReferencedContainer = "container:UltraLight.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0A02879B195D48CF00F24C88"
+            BlueprintIdentifier = "0A57CAA519669F3800A298BA"
             BuildableName = "UltraLight.app"
             BlueprintName = "UltraLight"
             ReferencedContainer = "container:UltraLight.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0A02879B195D48CF00F24C88"
+            BlueprintIdentifier = "0A57CAA519669F3800A298BA"
             BuildableName = "UltraLight.app"
             BlueprintName = "UltraLight"
             ReferencedContainer = "container:UltraLight.xcodeproj">
@@ -84,7 +84,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "0A02879B195D48CF00F24C88"
+            BlueprintIdentifier = "0A57CAA519669F3800A298BA"
             BuildableName = "UltraLight.app"
             BlueprintName = "UltraLight"
             ReferencedContainer = "container:UltraLight.xcodeproj">
