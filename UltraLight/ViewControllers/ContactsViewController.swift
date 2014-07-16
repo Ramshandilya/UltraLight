@@ -38,6 +38,7 @@ class ContactsViewController: UIViewController {
         let cellNib = UINib(nibName: "ContactTableViewCell", bundle: nil)
         contactsTableView.registerNib(cellNib, forCellReuseIdentifier: ContactsTableViewCellIdentifier)
         contactsTableView.dataSource = arrayDataSource
+        
     }
 
     override func didReceiveMemoryWarning() {

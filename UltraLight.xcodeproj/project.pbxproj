@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A3E9CFB197525420021A0A5 /* ModelContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3E9CFA197525420021A0A5 /* ModelContainer.swift */; };
+		0A3E9CFD1975263B0021A0A5 /* KVObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3E9CFC1975263B0021A0A5 /* KVObserver.swift */; };
 		0A57CAAC19669F3800A298BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A57CAAB19669F3800A298BA /* AppDelegate.swift */; };
 		0A57CAAE19669F3800A298BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A57CAAD19669F3800A298BA /* Images.xcassets */; };
 		0A57CABA19669F3800A298BA /* UltraLightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A57CAB919669F3800A298BA /* UltraLightTests.swift */; };
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A3E9CFA197525420021A0A5 /* ModelContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelContainer.swift; sourceTree = "<group>"; };
+		0A3E9CFC1975263B0021A0A5 /* KVObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KVObserver.swift; sourceTree = "<group>"; };
 		0A57CAA619669F3800A298BA /* UltraLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltraLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A57CAAA19669F3800A298BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A57CAAB19669F3800A298BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -163,6 +167,8 @@
 			children = (
 				0A57CAE11966A1F700A298BA /* Contact.swift */,
 				0A57CAE31966A35100A298BA /* BackendStore.swift */,
+				0A3E9CFA197525420021A0A5 /* ModelContainer.swift */,
+				0A3E9CFC1975263B0021A0A5 /* KVObserver.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -298,8 +304,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A57CAE21966A1F700A298BA /* Contact.swift in Sources */,
+				0A3E9CFB197525420021A0A5 /* ModelContainer.swift in Sources */,
 				0A57CAD819669FB800A298BA /* ContactTableViewCell.swift in Sources */,
 				0A57CAAC19669F3800A298BA /* AppDelegate.swift in Sources */,
+				0A3E9CFD1975263B0021A0A5 /* KVObserver.swift in Sources */,
 				0A57CAE41966A35100A298BA /* BackendStore.swift in Sources */,
 				0A57CAF81966B01400A298BA /* ArrayDataSource.swift in Sources */,
 				0A57CAD619669FB800A298BA /* ContactsViewController.swift in Sources */,
